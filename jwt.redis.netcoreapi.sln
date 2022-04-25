@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jwt.redis.netcoreapi", "jwt.redis.netcoreapi\jwt.redis.netcoreapi.csproj", "{535D43AD-0A73-436B-B12D-3C29A7A26F88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FE6C3BF6-2744-45DC-8255-F6A5EB1A25BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jwt.redis.netcoreapi.test", "jwt.redis.netcoreapi.test\jwt.redis.netcoreapi.test.csproj", "{1A6434A1-2CC3-4C65-A40E-4D063B77835B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{535D43AD-0A73-436B-B12D-3C29A7A26F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535D43AD-0A73-436B-B12D-3C29A7A26F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535D43AD-0A73-436B-B12D-3C29A7A26F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535D43AD-0A73-436B-B12D-3C29A7A26F88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A6434A1-2CC3-4C65-A40E-4D063B77835B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6434A1-2CC3-4C65-A40E-4D063B77835B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6434A1-2CC3-4C65-A40E-4D063B77835B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6434A1-2CC3-4C65-A40E-4D063B77835B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A6434A1-2CC3-4C65-A40E-4D063B77835B} = {FE6C3BF6-2744-45DC-8255-F6A5EB1A25BA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {360C156C-BAF8-44B0-B658-C91971BE32CE}
+	EndGlobalSection
+EndGlobal
